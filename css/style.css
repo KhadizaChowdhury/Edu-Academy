@@ -121,6 +121,15 @@ header .fixed-nav{
     text-align: start;
 }
 
+/* FAQ */
+.faq{
+    max-width: 872px;
+    margin: 130px auto;
+}
+.faq .text{
+    text-align: center;
+}
+
 /* Trusted Section */
 .trusted_section{
     margin-bottom: 130px;
@@ -130,8 +139,12 @@ header .fixed-nav{
 footer{
     padding: 8rem 0;
 }
-footer p, footer span{
+footer p, footer span a{
     color: #E8E8E8;
+    text-decoration: none;
+}
+footer span a:hover{
+    color: #fff;
 }
 .social_icons i{
     background: #242424;
@@ -140,7 +153,7 @@ footer p, footer span{
     margin-top: 20px;
     margin-left: 12px;
     padding: 12px;
-    transition: background 0.9s linear, color 0.9s linear;
+    transition: background 0.9s linear, color 0.3s linear;
 }
 .social_icons i:hover{
 	background: #fff;
@@ -164,6 +177,9 @@ footer p, footer span{
     }
     .join_now h1{
         text-align: center!important;
+    }
+    .faq{
+        margin-top: 4rem;
     }
     footer{
         padding: 4rem 0;
@@ -201,6 +217,9 @@ footer p, footer span{
     .join_now{
         margin: 32px auto;
         padding: 15px 30px;
+    }
+    .faq{
+        margin-top: 2rem;
     }
     footer{
         padding: 2rem 3rem;
