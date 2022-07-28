@@ -18,6 +18,9 @@ p{
     color: #777777;
     line-height: 30px;
 }
+.edu-primary{
+    color: #289BDE;
+}
 /* Header CSS */
 header .fixed-nav{
     position: fixed;
@@ -68,12 +71,13 @@ header .fixed-nav{
 .text-btn{
     margin-top: 14px;
 }
-.edu-btn{
-    color: #fff;
+.bg-edu-primary{
     background: #289BDE;
-    border: 1px solid #289BDE;
+}
+.edu-btn{
     border-radius: 5px;
     padding: 13px 33px;
+    border: 1px solid #289BDE;
 }
 
 /* Popular Courses */
@@ -100,10 +104,15 @@ header .fixed-nav{
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #289BDE;
 }
 .course_btn{
     margin-top: 50px;
+}
+
+
+/* Trusted Section */
+.trusted_section{
+    margin-bottom: 130px;
 }
 
 /* Footer */
