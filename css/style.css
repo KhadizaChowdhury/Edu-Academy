@@ -109,6 +109,14 @@ header .fixed-nav{
     margin-top: 50px;
 }
 
+/* explore */
+.explore{
+    margin: 130px auto;
+}
+.explore .card{
+    background: #F4FAFD;
+}
+
  /* Register Now */
 .join_now{
     margin-top: 130px;
@@ -129,6 +137,10 @@ header .fixed-nav{
 .faq .text{
     text-align: center;
 }
+.faq .accordion-item:not(:first-of-type) {
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)!important;
+    margin-top: 20px;
+}
 
 /* Trusted Section */
 .trusted_section{
@@ -146,7 +158,9 @@ footer p, footer span a{
 footer span a:hover{
     color: #fff;
 }
-.social_icons i{
+.social_icons a{
+    color: #fff;
+    text-decoration: none;
     background: #242424;
     height: 40px;
     width: 40px;
@@ -155,7 +169,7 @@ footer span a:hover{
     padding: 12px;
     transition: background 0.9s linear, color 0.3s linear;
 }
-.social_icons i:hover{
+.social_icons a:hover{
 	background: #fff;
     color: #000;
 }
@@ -165,7 +179,25 @@ footer span a:hover{
     .popular_courses {
         margin-top: 4rem;
     }
-
+    /* explore */
+    .explore{
+        margin: 60px auto;
+    }
+    .explore img{
+        height: -webkit-fill-available;
+        object-fit: cover;
+    }
+    .explore .text{
+        overflow: hidden;
+        /* white-space: nowrap; */
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .explore a{
+        text-decoration: none;
+    }
     /* Register Now */
     .join_now{
         margin-top: 60px;
@@ -212,6 +244,10 @@ footer span a:hover{
     }
     .course_btn {
         margin-top: 1.5rem;
+    }
+    /* explore */
+    .explore{
+        margin: 32px auto;
     }
     /* Register Now */
     .join_now{
