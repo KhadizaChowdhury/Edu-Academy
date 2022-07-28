@@ -1,0 +1,102 @@
+/* Poppins Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 600;
+    font-size: calc(2rem + 1vw);
+    text-align: center;
+    color: #1D1D1D;
+}
+p{
+    color: #777777;
+    line-height: 30px;
+}
+/* Header CSS */
+header .fixed-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 25px 0 25px;
+}
+.slide{
+    margin-top: 100px;
+}
+.item-1, .item-2, .item-3{
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+
+}
+.item-1{
+    background-image: url(../images/cover/cover-1.png);
+}
+.item-2{
+    background-image: url(../images/cover/cover-2.jpg);
+}
+.item-3{
+    background-image: url(../images/cover/cover-3.jpg);
+}
+.carousel-item .overlay {
+    background: rgba(29, 29, 29, 0.7);
+    overflow: hidden;
+}
+.carousel-item .text{
+    height: 100vh;
+    padding: 10vh 15vw;
+}
+.carousel-item .text h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.carousel-item .text p{
+    color: #fff;
+}
+.slide-btn{
+    border: none;
+    background: transparent;
+}
+.text-btn{
+    margin-top: 14px;
+}
+.edu-btn{
+    color: #fff;
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    padding: 13px 33px;
+}
+
+
+/* Tablet Responsive */
+@media (max-width: 991.98px) {
+}
+
+/* Mobile Responsive */
+@media (max-width: 767.98px) {
+    h1{
+        font-size: calc(1.1rem + 1.2vw);
+    }
+    .carousel-item .text {
+        padding: 10vh 15vw;
+    }
+    .carousel-item .text h1 {
+        margin-bottom: 10px;
+    }
+    .carousel-item .text p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .text-btn {
+        margin-top: 4px;
+    }
+}
