@@ -109,6 +109,17 @@ header .fixed-nav{
     margin-top: 50px;
 }
 
+ /* Register Now */
+.join_now{
+    margin-top: 130px;
+    padding: 80px 100px;
+}
+.join_now .reg-col{
+    text-align: end;
+}
+.join_now form .mb-3 {
+    text-align: start;
+}
 
 /* Trusted Section */
 .trusted_section{
@@ -141,6 +152,19 @@ footer p, footer span{
     .popular_courses {
         margin-top: 4rem;
     }
+
+    /* Register Now */
+    .join_now{
+        margin-top: 60px;
+        padding: 58px 100px;
+        text-align: center;
+    }
+    .join_now .reg-col{
+        text-align: center;
+    }
+    .join_now h1{
+        text-align: center!important;
+    }
     footer{
         padding: 4rem 0;
     }
@@ -172,6 +196,11 @@ footer p, footer span{
     }
     .course_btn {
         margin-top: 1.5rem;
+    }
+    /* Register Now */
+    .join_now{
+        margin: 32px auto;
+        padding: 15px 30px;
     }
     footer{
         padding: 2rem 3rem;
